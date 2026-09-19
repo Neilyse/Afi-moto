@@ -1,15 +1,60 @@
-<htm>
-  <!doctype html>
-  <html lang="en">
-    <head>
-      <meta charset="UTF-8" />
-      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-      <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
-      <title>Afi moto</title>
-      <script src="try.js" defer></script>
-    </head>
-    
-    <body>
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Privacy Policy | Afi Moto</title>
+<meta name="description" content="How Afi Moto collects, uses and protects your personal data.">
+<link rel="icon" href="assets\Afi logo">
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,800&family=Figtree:wght@400;500;600&display=swap" rel="stylesheet">
+
+<script src="https://cdn.tailwindcss.com"></script>
+<script>
+  tailwind.config = {
+    theme: {
+      extend: {
+        colors: {
+          bg: 'var(--bg)', surface: 'var(--surface)', ink: 'var(--ink)',
+          muted: 'var(--muted)', line: 'var(--line)',
+          brand: 'var(--green)', brandsoft: 'var(--green-soft)',
+          accent: '#FF9330', accentsoft: 'var(--orange-soft)'
+        },
+        fontFamily: {
+          head: ['"Bricolage Grotesque"', '"Trebuchet MS"', 'system-ui', 'sans-serif'],
+          body: ['Figtree', 'system-ui', '-apple-system', 'sans-serif']
+        }
+      }
+    }
+  }
+</script>
+
+<style>
+  :root {
+    --bg: #F7F7F5; --surface: #FFFFFF; --ink: #17231D; --muted: #55645C;
+    --line: #DCE3DE; --green: #2F7A5C; --green-soft: #E4F1EA; --orange-soft: #FFF0DD;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #0E1512; --surface: #16201B; --ink: #E8EFEA; --muted: #A2B1A8;
+      --line: #263229; --green: #5DBE97; --green-soft: #1B2B23; --orange-soft: #2C2216;
+    }
+  }
+</style>
+
+<!-- Shared styles for the policy text so you don't repeat classes on every tag -->
+<style type="text/tailwindcss">
+  a { @apply text-brand underline underline-offset-4 focus-visible:outline focus-visible:outline-[3px] focus-visible:outline-offset-2 focus-visible:outline-accent; }
+  article section { @apply pb-9 scroll-mt-6; }
+  article h2 { @apply font-head font-extrabold text-[1.7rem] leading-tight mb-3; }
+  article p { @apply mb-4; }
+  article ul { @apply list-disc pl-5 mb-4 space-y-2 marker:text-accent; }
+  th, td { @apply text-left py-3 pr-4 align-top border-t border-line; }
+  th { @apply border-t-0 text-[.92rem] font-semibold text-muted; }
+  td:first-child { @apply font-semibold md:whitespace-nowrap; }
+</style>
+</head>
+ 
+    <body class="bg-bg text-ink font-body text-[1.0625rem] leading-relaxed">
       
       <header class="flex items-center justify-between max-w-[68rem] mx-auto px-6 py-5">
   <a href="https://byungura.com/afi-moto/" class="flex items-center gap-3 text-ink no-underline">
